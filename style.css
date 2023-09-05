@@ -1,0 +1,89 @@
+
+body{
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 70% 30%
+  grid-template-rows: 20% 80%;
+  background-color: ghostwhite;
+}
+
+.grid-col-span-2{
+  grid-column: span 2;
+}
+
+h1{
+  text-align: center;
+  color: navy;
+  font-weight: bold;
+  font-size: 40px
+    
+}
+
+.contact{
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  
+    
+}
+
+.objective{
+  text-align: center;
+  font-size: 18px;
+}
+
+.intro{
+  border: 5px outset gray;
+  background-image: linear-gradient(thistle, whitesmoke);
+  
+}
+
+h2{
+  color: navy;
+  font-weight: bold;
+  font-size: 25px
+}
+
+h3{
+  color: dimgrey;
+  font-size: 20px;
+}
+
+h4::after{
+  content: "";
+  position: absolute;
+  left: 10px;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  
+  transform: scaleX(.02);
+  transform-origin: left;
+  transition: transform 300ms ease-out;
+  
+}
+
+ h4:hover::after{
+    transform: scaleX(.4);
+  }
+  
+  
+}
+
+h4{
+  color: darkgray;
+  font-size: 18px
+}
+
+.time{
+  color: darkgray;
+  font-size: 17px
+}
+
+ul{
+  color: lightslategray;
+  font-size: 16px;
+}
+ 
+  
+}
